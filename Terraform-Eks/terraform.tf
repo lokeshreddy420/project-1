@@ -4,6 +4,7 @@
 terraform {
 
   cloud {
+    organization = "my-s3"
     workspaces {
       name = "learn-terraform-eks-s3"
     }
